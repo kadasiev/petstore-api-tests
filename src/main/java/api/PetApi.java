@@ -28,7 +28,7 @@ public class PetApi extends BaseApi {
         .contentType("application/json")
         .body(pet)
     .when()
-        .post("/v2/pet");
+        .put("/v2/pet");
   }
 
   public static Response deletePet(int petId) {
