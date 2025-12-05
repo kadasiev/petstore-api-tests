@@ -1,4 +1,4 @@
-package tests.order;
+package order;
 
 import static api.StoreApi.addOrder;
 import static api.StoreApi.deleteOrder;

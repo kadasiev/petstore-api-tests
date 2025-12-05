@@ -1,4 +1,4 @@
-package tests.pet;
+package pet;
 
 import static api.PetApi.addPet;
 import static api.PetApi.deletePet;
